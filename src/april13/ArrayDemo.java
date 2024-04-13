@@ -15,6 +15,12 @@ public class ArrayDemo {
             System.out.println(arr[i]);
         }
 
+        char[] array = {'p','r','a','g','r','a'};
+
+        for (char c:array){
+            System.out.print(c);
+        }
+
 
     }
 

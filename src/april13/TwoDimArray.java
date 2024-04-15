@@ -13,7 +13,7 @@ public class TwoDimArray {
         int[][] arr = new int[i][j];
 
         for (i=0; i<arr.length; i++){           //rows
-            for(j=0; j<arr.length; j++){         //columns
+            for(j=0; j<arr[i].length; j++){         //columns
                 System.out.println("Enter the element:");
                 int k = scanner.nextInt();
                 arr[i][j] = k;
@@ -22,7 +22,7 @@ public class TwoDimArray {
 
         System.out.println("Printing the elements of first array: ");
         for (int a=0; a<arr.length; a++){
-            for(int b=0; b<arr.length; b++){
+            for(int b=0; b<arr[b].length; b++){
                 System.out.print(arr[a][b]+ " ");
             } System.out.println(" ");
         }

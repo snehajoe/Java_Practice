@@ -20,10 +20,11 @@ public class StringRev {
             left++;
             right--;
         }
-        System.out.println("Reversed string:");
-        for (int k = 0; k < chars.length; k++) {
+        System.out.println("Reversed string: "+ chars.toString());
+        /*for (int k = 0; k < chars.length; k++) {
             System.out.print(chars[k]);
-        }
+        }*/
+        //System.out.println(chars);
 
     }
 }

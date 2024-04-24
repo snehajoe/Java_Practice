@@ -9,7 +9,8 @@ public class Shape {
 
     public static void main(String[] args) {
         Rectangle rect = new Rectangle();
-        Circle cir = new Circle();
+        Shape cir = new Circle();           //upcasting
+        //Circle cir = new Circle();
         rect.getArea();
         cir.getArea();
     }

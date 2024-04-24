@@ -7,8 +7,8 @@ public class Rectangle extends Shape {
     private double length= scan.nextDouble();
     private double breadth = scan.nextDouble();
 
-
-    public void getArea(){
+    @Override
+    public void getArea() {
         double area = length*breadth;
         System.out.println("Area of the rectangle: "+ area);
     }
